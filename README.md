@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Thinh, a third-year UIT student.
+- 👋 Hi, I’m Thinh, a fourth-year UIT student.
 - 👀 I’m interested in coding, listening to rap, and basketball.
 - 🌱 I’m currently learning fullstack and data engineering.
 - 📫 How to reach me: 
