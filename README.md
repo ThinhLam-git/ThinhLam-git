@@ -1,6 +1,6 @@
-<!-- ① Header banner: capsule-render (venom style, different from the wave) -->
+<!-- ① Header banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0f172a,100:22c55e&height=200&section=header&text=Lucas%20Lam&fontSize=56&fontColor=ffffff&desc=Associate%20Technical%20Product%20Owner%20%40%20Fun%20AI&descSize=18&descAlignY=72&animation=fadeIn" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,100:166534&height=170&section=header&text=Lucas%20Lam&fontSize=52&fontColor=ffffff&fontAlignY=42&desc=Associate%20Technical%20Product%20Owner%20%40%20Fun%20AI&descSize=18&descAlignY=70&animation=fadeIn" width="100%"/>
 </p>
 
 <!-- ② Animated typing line -->
@@ -61,7 +61,7 @@ flowchart LR
 
 <!-- ⑦ Collapsible project cards -->
 <details open>
-<summary><b>📞 Voice Agent QA Harness</b> — a fake caller that tests a real voice agent</summ
+<summary><b>📞 Voice Agent QA Harness</b> — a fake caller that tests a real voice agent</summary>
 <br/>
 
 A production Japanese phone agent scored **4.13/10** in manual UAT, and the score couldn't be reproduced. I built *"Mai-san"*, a synthetic caller who phones the agent, holds a realistic conversation, and scores every call automatically.
@@ -90,7 +90,7 @@ A production Japanese phone agent scored **4.13/10** in manual UAT, and the scor
 <br/>
 
 - A 6-stage LangGraph pipeline turns PDFs, slides and URLs into Japanese courses with quizzes and narrated video
-- **My part:** the course viewer, the media pipeline and the CI/CD deploy (Cloudflare Tunnel,)
+- **My part:** the course viewer, the media pipeline and the CI/CD deploy (Cloudflare Tunnel, self-hosted runner, rollback)
 
 `LangGraph` `Next.js` `n8n` `ffmpeg` `GitHub Actions`
 </details>
@@ -118,7 +118,7 @@ A production Japanese phone agent scored **4.13/10** in manual UAT, and the scor
     <td>
       <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white"/>
       <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white"/>
-      <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchai
+      <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
       <img src="https://img.shields.io/badge/ElevenLabs-000000?style=flat-square&logo=elevenlabs&logoColor=white"/>
       <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white"/>
       <img src="https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=claude&logoColor=white"/>
@@ -141,7 +141,7 @@ A production Japanese phone agent scored **4.13/10** in manual UAT, and the scor
 
 <!-- ⑨ Contribution activity graph -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ThinhLam-git&bg_coe=22c55e&point=ffffff&area=true&area_color=22c55e&hide_border=true" width="100%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ThinhLam-git&bg_color=00000000&color=22c55e&line=22c55e&point=ffffff&area=true&area_color=22c55e&hide_border=true" width="100%"/>
 </p>
 
 <!-- ⑩ Stats + top languages side by side -->
@@ -160,5 +160,5 @@ A production Japanese phone agent scored **4.13/10** in manual UAT, and the scor
   <img src="https://komarev.com/ghpvc/?username=ThinhLam-git&label=profile%20views&color=22c55e&style=flat-square"/>
 </p>
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:22c55e,100:0f172a&height=%20for%20stopping%20by&fontSize=18&fontColor=ffffff" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:22c55e,100:0f172a&height=60&section=footer&text=Thanks%20for%20stopping%20by&fontSize=18&fontColor=ffffff" width="100%"/>
 </p>
