@@ -139,20 +139,21 @@ A production Japanese phone agent scored **4.13/10** in manual UAT, and the scor
 
 ## 📊 Activity
 
-<!-- ⑨ Contribution activity graph -->
+<!-- ⑨ Profile summary with contribution timeline -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ThinhLam-git&bg_color=00000000&color=22c55e&line=22c55e&point=ffffff&area=true&area_color=22c55e&hide_border=true" width="100%"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ThinhLam-git&theme=github_dark" width="100%"/>
 </p>
 
-<!-- ⑩ Stats + top languages side by side -->
+<!-- ⑩ Stats + languages + productive hours -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ThinhLam-git&show_icons=true&count_private=true&theme=transparent&hide_border=true&title_color=22c55e&icon_color=22c55e" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ThinhLam-git&layout=compact&theme=transparent&hide_border=true&title_color=22c55e" height="160"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ThinhLam-git&theme=github_dark" height="165"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ThinhLam-git&theme=github_dark" height="165"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ThinhLam-git&theme=github_dark&utcOffset=7" height="165"/>
 </p>
 
-<!-- ⑪ Trophies -->
+<!-- ⑪ Streak -->
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ThinhLam-git&theme=onestar&no-frame=true&no-bg=true&margin-w=6&column=7"/>
+  <img src="https://streak-stats.demolab.com/?user=ThinhLam-git&theme=dark&hide_border=true&ring=22c55e&fire=22c55e&currStreakLabel=22c55e"/>
 </p>
 
 <!-- ⑫ Footer banner + visitor counter -->
