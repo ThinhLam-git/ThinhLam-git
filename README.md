@@ -1,95 +1,164 @@
-<!-- Banner -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Lucas%20Lam&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Technical%20Product%20Owner%20who%20ships%20AI%20agents&descSize=18&descAlignY=52"/>
-</div>
-
-<!-- Tagline -->
-<h3 align="center">I translate client needs into AI agents that work — and build the tests that prove it.</h3>
-
+<!-- ① Header banner: capsule-render (venom style, different from the wave) -->
 <p align="center">
-  <a href="mailto:ltthinh111@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://www.linkedin.com/in/ltthinh111/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <img src="https://komarev.com/ghpvc/?username=ThinhLam-git&style=for-the-badge&color=blueviolet"/>
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0f172a,100:22c55e&height=200&section=header&text=Lucas%20Lam&fontSize=56&fontColor=ffffff&desc=Associate%20Technical%20Product%20Owner%20%40%20Fun%20AI&descSize=18&descAlignY=72&animation=fadeIn" width="100%"/>
+</p>
+
+<!-- ② Animated typing line -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=22C55E&center=true&vCenter=true&width=640&lines=I+scope+AI+agents.+Then+I+build+them.;LLM+reasons+%E2%86%92+code+decides+what's+allowed.;No+agent+ships+without+an+eval+that+can+fail+it." alt="typing"/>
+</p>
+
+<!-- ③ Contact badges (flat-square, not for-the-badge) -->
+<p align="center">
+  <a href="https://www.linkedin.com/in/ltthinh111/"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:ltthinh111@gmail.com"><img src="https://img.shields.io/badge/-Email-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
+  <img src="https://img.shields.io/badge/Based_in-Ho_Chi_Minh_City-22c55e?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Clients-SG_·_JP_·_VN-0f172a?style=flat-square"/>
 </p>
 
 ---
 
-✻ Sautéed for 29s · done 11:42 AM
+<!-- ④ Code-block "about me" -->
+```python
+class LucasLam:
+    role    = "Associate Technical Product Owner"
+    company = "Functional AI Partners (Fun AI) — Singapore · B2B AI agents"
+    focus   = ["LLM agents", "Voice AI", "RAG", "Agent evaluation"]
 
-> 1. https://www.linkedin.com/in/ltthinh111/
-  2. no need
-  3. oke 3+
+    def how_i_work(self):
+        return [
+            "Turn a vague client ask into a scoped MVP",
+            "Let the LLM reason; let deterministic code decide what's allowed",
+            "No agent ships without an eval that can fail it",
+        ]
 
-Here's the final version, with your LinkedIn URL added and the badge changed to 3+:
+    fun_fact = "Same birthday as Freddie Mercury 🎤"
+```
 
-<!-- Banner -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Lucas%20Lam&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Technical%20Product%20Owner%20who%20ships%20AI%20agents&descSize=18&descAlignY=52"/>
-</div>
-
-<!-- Tagline -->
-<h3 align="center">I translate client needs into AI agents that work — and build the tests th
-
-<p align="center">
-  <a href="mailto:ltthinh111@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://www.linkedin.com/in/ltthinh111/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <img src="https://komarev.com/ghpvc/?username=ThinhLam-git&style=for-the-badge&color=blueviolet"/>
-</p>
-
----
-
-### About
-
-**Associate Technical Product Owner** at **Functional AI Partners (Fun AI)**, a Singapore-based B2B company that builds AI agents for enterprise clients in Japan and Vietnam.
-
-- 🎯 **Own the product side:** scope, MVP boundaries, sprint planning and demo flow for client-facing AI agents
-- 🛠️ **Stay hands-on:** I write the backends, evaluation harnesses and deploy pipelines myself
-- 🧪 **Believe agents need proof:** every LLM decision should be testable, bounded by policy and traceable
-
-
-| Project | What it does | Stack |
-|---|---|---|
-| **Voice Agent QA Harness** | A synthetic Japanese caller phones a production voice agent and scores each call automatically, using an LLM judge (median of 3 runs) plus pronunciation and latency checks | Python · ElevenLabs · Vapi · WebSockets |
-| **Enterprise AI Assistant** | Streaming chat with RAG over PDF, Office files and scans, generates Excel/PowerPoint files, tracks cost per call | FastAPI · pgvector · MinIO · Docker |
-| **AI Course Generator** | Turns PDFs and slides into Japanese e-learning courses with narrated video (6-stage LLM pipeline) | LangGraph · Next.js · n8n · GitHub Actions |
-| **Order Rescue** *(Sea × OpenAI Codex Hackathon)* | Agent that decides how to recover failed deliveries, with its actions limited by policy rules | In progress |
+<!-- ⑤ GitHub-native alert block -->
+> [!TIP]
+> **Building now:** *Order Rescue*, an adaptive delivery-recovery agent for the **Sea × OpenAI Codex Hackathon** → [sea-hackathon](https://github.com/ThinhLam-git/sea-hackathon)
 
 ---
 
-### Tech Stack
+## 🔁 How I ship an AI agent
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,fastapi,ts,react,nextjs,nodejs,postgres,supabase,firebase,docker,githubactions,cloudflare,nginx&theme=dark" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/OpenAI_GPT-412991?style=flat-square&logo=openai&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white"/>
-  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
-  <img src="https://img.shields.io/badge/ElevenLabs-000000?style=flat-square&logo=elevenlabs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=claude&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white"/>
-</p>
+<!-- ⑥ Mermaid diagram — rendered natively by GitHub, no external service -->
+```mermaid
+flowchart LR
+    A([Client ask]) --> B[Scope MVP<br/>+ acceptance criteria]
+    B --> C[Spec-driven build<br/>with AI coding agents]
+    C --> D{Eval harness<br/>passes?}
+    D -- no --> C
+    D -- yes --> E[Policy gate<br/>+ guardrails]
+    E --> F([Ship & measure])
+    F -. feedback .-> B
+```
 
 ---
 
-### By the Numbers
+## 🛠 Things I've shipped
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Production%20AI%20Systems-3+-success?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Automated%20Tests-770+-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Voice%20Test%20Calls-250+-orange?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Markets-SG%20·%20JP%20·%20VN-blueviolet?style=for-the-badge"/>
-</p>
+<!-- ⑦ Collapsible project cards -->
+<details open>
+<summary><b>📞 Voice Agent QA Harness</b> — a fake caller that tests a real voice agent</summ
+<br/>
+
+A production Japanese phone agent scored **4.13/10** in manual UAT, and the score couldn't be reproduced. I built *"Mai-san"*, a synthetic caller who phones the agent, holds a realistic conversation, and scores every call automatically.
+
+| Scenarios | Offline tests | Real test calls | Judge |
+|:---:|:---:|:---:|:---:|
+| **34** | **770+** | **250+** | LLM median-of-3 |
+
+`Python` `ElevenLabs` `Vapi` `WebSockets` `LLM-as-judge`
+</details>
+
+<details>
+<summary><b>💬 Enterprise AI Assistant</b> — chat, RAG and document generation for a Japanese enterprise</summary>
+<br/>
+
+- Streaming answers (SSE) with web search and image generation
+- RAG over PDF, Word, Excel, PowerPoint and scanned files (pgvector + OCR)
+- Generates Excel/PowerPoint files from schema-validated tool calls, with retry
+- Per-user rate limits and a cost/token ledger for every call
+
+`FastAPI` `Postgres + pgvector` `MinIO` `Docker` `Nginx`
+</details>
+
+<details>
+<summary><b>🎓 AI Course Generator</b> — slides in, narrated e-learning course out</summary>
+<br/>
+
+- A 6-stage LangGraph pipeline turns PDFs, slides and URLs into Japanese courses with quizzes and narrated video
+- **My part:** the course viewer, the media pipeline and the CI/CD deploy (Cloudflare Tunnel,)
+
+`LangGraph` `Next.js` `n8n` `ffmpeg` `GitHub Actions`
+</details>
 
 ---
 
-### GitHub Activity
+## 🧰 Toolbox
 
+<!-- ⑧ Skill icons, split by layer -->
+<table align="center">
+  <tr>
+    <td align="center"><b>Build</b></td>
+    <td><img src="https://skillicons.dev/icons?i=python,fastapi,ts,react,nextjs,nodejs&perline=6"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Data</b></td>
+    <td><img src="https://skillicons.dev/icons?i=postgres,supabase,firebase&perline=6"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Ship</b></td>
+    <td><img src="https://skillicons.dev/icons?i=docker,githubactions,cloudflare,nginx&perline=6"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>AI</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white"/>
+      <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchai
+      <img src="https://img.shields.io/badge/ElevenLabs-000000?style=flat-square&logo=elevenlabs&logoColor=white"/>
+      <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=claude&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Product</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Sprint_planning-555?style=flat-square"/>
+      <img src="https://img.shields.io/badge/UAT_design-555?style=flat-square"/>
+      <img src="https://img.shields.io/badge/Spec--driven_dev-555?style=flat-square"/>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 📊 Activity
+
+<!-- ⑨ Contribution activity graph -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ThinhLam-git&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF" height="165"/>
-  <img src="https://streak-stats.demolab.com/?user=ThinhLam-git&theme=tokyonight&hide_border==58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF" height="165"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ThinhLam-git&bg_coe=22c55e&point=ffffff&area=true&area_color=22c55e&hide_border=true" width="100%"/>
+</p>
+
+<!-- ⑩ Stats + top languages side by side -->
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ThinhLam-git&show_icons=true&count_private=true&theme=transparent&hide_border=true&title_color=22c55e&icon_color=22c55e" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ThinhLam-git&layout=compact&theme=transparent&hide_border=true&title_color=22c55e" height="160"/>
+</p>
+
+<!-- ⑪ Trophies -->
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=ThinhLam-git&theme=onestar&no-frame=true&no-bg=true&margin-w=6&column=7"/>
+</p>
+
+<!-- ⑫ Footer banner + visitor counter -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=ThinhLam-git&label=profile%20views&color=22c55e&style=flat-square"/>
+</p>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:22c55e,100:0f172a&height=%20for%20stopping%20by&fontSize=18&fontColor=ffffff" width="100%"/>
 </p>
